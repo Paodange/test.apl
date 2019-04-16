@@ -78,11 +78,19 @@ def new_task_id():
 
 
 while True:
+    print('moving to HotelA...')
     move_to('HotelA')
+    print('grasp from HotelA...')
     grasp('HotelA')
+    print('moving to MGISP100EX...')
     move_to('MGISP100EX')
+    print('laydown to MGISP100EX...')
     lay_down('MGISP100EX')
 
+    print('grasp from MGISP100EX...')
     grasp('MGISP100EX')
+    print('moving to HotelA...')
     move_to('HotelA')
+    print('laydown to HotelA...')
     lay_down('HotelA')
+    print('*************************************************************************')
